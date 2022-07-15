@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 62.5%;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Nav here */
+nav {
+  background-color: rgb(255, 255, 255);
+  padding: 3rem;
+}
+
+nav h1 {
+  float: left;
+}
+
+span {
+  color:rgb(255, 179, 0);
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  margin-top: 1.5rem;
+}
+
+nav li{
+  float: left;
+  margin: 0rem 4rem;
+}
+
+nav #logo > img {
+  height: 4rem
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 0.5rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2.4rem;
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  border-bottom: 3px solid  rgb(255, 179, 0);
+  font-size: 2.8rem;
+  transition-duration: 0.5s;
+}
+
+button {
+  font-size: 1.8rem;
+}
+
+/* homepage here */
+.description {
+  background-image: url("../images/home-bg.png");
+  background-size: cover;
+  background-position: top right -45rem;
+  height: 80rem;
+  text-align: left;
+  padding-top: 20rem;
+  padding-left: 8rem;
+}
+
+.description h2 {
+  font-size: 3.6rem;
+  padding: 5rem 0rem;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 0.5rem;
+}
+
+.description button {
+  margin-top: 4rem;
+  padding: 1rem 4rem;
+  border-radius: 8rem;
+  background-color: rgb(255, 179, 0);
+  cursor: pointer;
+}
+
+.description button:hover {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+/* about page here */
+.about {
+  background-color: #fcf4e5;
+  height: 80rem;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  margin-top: 10rem;
+}
+
+.about-message {
+  display: block;
+  position: relative;
+  top: 10rem;
+}
+
+.about h2 {
+  padding: 7rem ;
+  font-size: 2.4rem;
+  letter-spacing: 1.5rem;
+}
+
+.about h3{
+  font-family: 'Lobster', cursive;
+  letter-spacing: 0.5rem;
+}
+
+.about img {
+  height: 45rem;
+  width: 55%;
+  margin-top: -25rem;
+  margin-left: 60rem;
+  border-radius: 100rem;
+}
+
+.about p {
+  display: block;
+  width: 28%;
+  font-size: 2.4rem;
+  margin-left: 6rem;
+}
+
+.about h3 {
+  margin-bottom: -2rem;
+  margin-left: 6rem;
+}
+
+/* Dood Menu */
+.header-message {
+  display: block;
+  position: relative;
+  top: 35rem;
+  left: 15rem;
+}
+
+.menu-p1 {
+  height: 80rem;
+}
+
+.menu-p1 h2 {
+  font-size: 2.4rem;
+  padding: 0.5rem;
+  letter-spacing: 1.5rem;
+}
+
+.menu-p1 h3{
+  font-family: 'Lobster', cursive;
+  letter-spacing: 0.5rem;
+}
+
+.food-cards {
+  display: block;
+  height: 72rem;
+  width: 60rem;
+  margin-left: 80rem;
+  margin-top: -3rem;
+  text-align: center;
+}
+
+.food-cards button:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.food-item1 {
+  background-color: #E5DDD1;
+  height: 24rem;
+  width: 50rem;
+  padding: 2rem;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.food-item1 img {
+  height: 10rem;
+  width: 10rem;
+  margin-top: 1.5rem;
+}
+
+.food-item1 button {
+  padding: 1rem 4rem;
+  border-radius: 8rem;
+  border: none;
+  background-color: rgb(255, 179, 0);
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.food-item2 {
+  background-color: #fcf4e5;
+  height: 24rem;
+  width: 50rem;
+  padding: 2rem;
+}
+
+.food-item2 img {
+  height: 10rem;
+  width: 10rem;
+  margin-top: 1.5rem;
+}
+
+.food-item2 button {
+  padding: 1rem 4rem;
+  border-radius: 8rem;
+  border: none;
+  background-color: rgb(255, 179, 0);
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.food-item3 {
+  background-color: #E5DDD1;
+  height: 24rem;
+  width: 50rem;
+  padding: 2rem;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.food-item3 img {
+  height: 10rem;
+  width: 10rem;
+  margin-top: 1.5rem;
+}
+
+.food-item3 button {
+  padding: 1rem 4rem;
+  border-radius: 8rem;
+  border: none;
+  background-color: rgb(255, 179, 0);
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* feedback to */
+.form {
+  text-align: center;
+  background-image: url("../images/contact-bg.png");
+  background-color: #fcf4e5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -35rem;
+}
+
+.form h3 {
+  padding-top: 8rem;
+  margin-bottom: 5rem;
+  letter-spacing: 1.5rem;
+}
+
+form input, form label, form textarea{
+  display: block;
+  font-size: 2.4rem;
+  color: rgb(0, 0, 0);
+}
+
+form input, form textarea {
+  margin: 2.4rem auto;
+  width: 35%;
+}
+
+form button {
+  margin-bottom: 5rem;
+  padding: 1rem 4rem;
+  border-radius: 8rem;
+  border: none;
+  background-color: rgb(255, 179, 0);
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+
+
+

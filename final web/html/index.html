@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../images/title-logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="./js/scripts.js"></script>
+  <title>Foodie Station</title>
+</head>
+<body>
+  <!-- landing page -->
+  <header>
+    <nav>
+        <h1 id="logo">
+            <img src="../images/logo.svg"> Foodie <span>Station</span> 
+        </h1>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#Feedback">Feedback</a></li>
+      </ul>
+      <div class="clear"></div>
+    </nav>
+  </header>
+  <section class="description">
+    <h2>Fresh ingredients <span>everyday!</span></h2>
+    <h3>Pancake all the way!</h3>
+    <button onclick="clickBtn()">Order Now</button>
+  </section>
+
+  <!-- About page -->
+  <section class="about" id="About">
+    <div class="about-message">
+      <header>
+        <h2>About <span>Us</span></h2>
+      </header>
+        <h3><span>Enjoyable </span>meals all the time</h3> <br><br><br>
+        <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque temporibus beatae dolorum quidem saepe. Delectus mollitia natus culpa, saepe alias incidunt. Odio nihil molestias earum, non repudiandae neque. Dolorum, ad?
+      </p>
+    </div>
+      <img src="../images/burger-about.jpg">
+  </section>
+
+  <!-- Menu page -->
+    <section class="menu-p1" id="Menu">
+      <div class="header-message">
+        <header>
+          <h2>Food <span>Menu</span></h2>
+        </header>
+          <h3>Eat whenever you want!</h3>
+      </div>
+      <div class="food-cards">
+        <div class="food-item1">
+          <h2>Breakfast</h2>
+          <img src="../images/breakfast.png" alt="">
+          <button>View more</button>
+        </div>
+        <div class="food-item2">
+          <h2>Lunch</h2>
+          <img src="../images/lunch.png" alt="">
+          <button>View more</button>
+        </div>
+        <div class="food-item3">
+          <h2>Dinner</h2>
+          <img src="../images/dinner.png" alt="">
+          <button>View more</button>
+        </div>
+      </div>
+    </section>
+
+  <!-- Feedback page-->
+  <section class="form" id="Feedback">
+    <header>
+      <h3>Feed<span>back</span> </h3>
+    </header>
+    <form>
+      <label for="name-input">Name:</label>
+      <input type="text" name="name" id="name-input">
+      <label for="email-input">Email:</label>
+      <input type="email" name="email" id="email-input">
+      <label for="feedback-input">Feedback:</label>
+      <textarea name="feedback" id="feedback-input" cols="30" rows="10"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</body>
+</html>
